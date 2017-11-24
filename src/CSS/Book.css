@@ -1,0 +1,26 @@
+.book-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+.book-title span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.book-review {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.book-review .cover {
+    max-width: 400px;
+}
+
+@media screen and (min-width: 480px) {
+    .book-review {
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 2fr;
+    }
+}

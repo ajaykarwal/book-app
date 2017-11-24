@@ -1,0 +1,11 @@
+.siteFooter {
+    background-color: var(--grey-space);
+    color: var(--grey-light);
+    font-size: .75rem;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.siteFooter a {
+    color: var(--yellow);
+}

@@ -1,0 +1,45 @@
+:root {
+  --white : #ffffff;
+  --black : #000000;
+  --grey-light: #f5f5f5;
+  --grey-space: #263238;
+  --blue-aqua : #00bcd4;
+  --yellow : #ffc107;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--grey-light);
+  color: var(--grey-space);
+  margin: 0 auto;
+  padding: 0;
+  font: normal normal normal 100%/1.5 sans-serif;
+
+}
+a {
+  color: var(--blue-aqua);
+}
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 16px;
+}
+
